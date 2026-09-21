@@ -9,3 +9,7 @@ __pycache__/
 .venv/
 venv/
 env/
+
+# Rough work and ideas
+  scratch/
+  notes/
