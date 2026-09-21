@@ -1,0 +1,6 @@
+SELECT 
+    s.supplier_name, 
+    COUNT(p.product_id) as products_supplied
+FROM Suppliers s
+LEFT JOIN Products p ON s.supplier_id = p.supplier_id
+GROUP BY s.supplier_id;
