@@ -1,0 +1,11 @@
+# Database
+inventory_system.db
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+env/
