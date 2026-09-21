@@ -44,8 +44,8 @@ The system relies on a strictly relational schema built with the following core 
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
-   cd YOUR_REPOSITORY_NAME
+   git clone https://github.com/NotAbhayKumar/inventory-control-system.git
+   cd inventory-control-system
    ```
 
 2. **Create a virtual environment (Recommended):**
