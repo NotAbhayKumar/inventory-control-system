@@ -1,0 +1,11 @@
+1. Project Objective
+The goal of this system is to track products, manage suppliers, monitor stock levels, and record stock movements (inbound purchases and outbound sales). 
+The database will automatically update stock levels when transactions occur and alert users when items fall below a safe threshold.
+
+2. Database Schema Design (ER Model):
+You will need four core tables to build a robust relational database:
+
+Categories: Groups products (e.g., Electronics, Furniture).
+Suppliers: Tracks vendor details.
+Products: Stores item details, pricing, current stock, and the minimum stock limit (reorder level).
+Transactions: Logs every time stock is added (IN) or removed (OUT).
