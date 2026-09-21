@@ -1,0 +1,8 @@
+SELECT 
+    t.transaction_date, 
+    p.product_name, 
+    t.transaction_type, 
+    t.quantity 
+FROM Transactions t
+JOIN Products p ON t.product_id = p.product_id
+ORDER BY t.transaction_date DESC;
